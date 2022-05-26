@@ -13,7 +13,7 @@ blog:
     url: /blog/tags/
 
 fluent-builders:
-  - title: "About"
+  - title: "About Fluent Builders"
     url: /fluent-builders/about
   - title: "Quick Start"
     url: /fluent-builders/quick-start

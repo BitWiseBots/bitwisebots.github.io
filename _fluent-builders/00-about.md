@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Fluent Builders"
 permalink: /fluent-builders/about
 redirect_from:
     - /fluent-builders/
