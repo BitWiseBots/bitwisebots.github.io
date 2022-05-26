@@ -10,6 +10,8 @@ logo: "/assets/images/logo.png"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+highlighter: rouge
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -18,6 +20,12 @@ timezone: America/Edmonton # https://en.wikipedia.org/wiki/List_of_tz_database_t
 
 include:
   - _pages
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
 
 plugins:
   - jekyll-paginate
@@ -28,6 +36,14 @@ plugins:
   - jekyll-include-cache
   - jekyll-relative-links
   - jekyll-redirect-from
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 author:
   name   : "BitWiseBots"
