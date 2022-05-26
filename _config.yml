@@ -6,7 +6,6 @@ github_username: BitWiseBots
 minimal_mistakes_skin: neon
 search: true
 logo: "/assets/images/logo.png"
-baseurl: "/site"
 
 # Build settings
 markdown: kramdown
@@ -28,6 +27,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-relative-links
+  - jekyll-redirect-from
 
 author:
   name   : "BitWiseBots"
@@ -49,7 +49,6 @@ footer:
 
 collections:
   projects:
-    output: true
     permalink: /:path/
   fluent-builders:
     output: true
@@ -92,7 +91,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-relative_links:
-  enabled:     true
-  collections: true
