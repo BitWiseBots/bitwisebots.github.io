@@ -48,7 +48,8 @@ footer:
 
 collections:
   projects:
-    output: false
+    output: true
+    permalink: /:path/
   fluent-builders:
     output: true
     permalink: /:collection/:path/
@@ -90,3 +91,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+ relative_links:
+  enabled:     true
+  collections: true
