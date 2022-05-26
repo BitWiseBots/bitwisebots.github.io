@@ -1,5 +1,5 @@
 ---
 title: "Quick-Start Guide"
-permalink: quick-start
+permalink: /fluent-builders/quick-start
 ---
 # Quick Start Guide
