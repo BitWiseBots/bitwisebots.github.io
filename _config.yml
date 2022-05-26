@@ -1,1 +1,90 @@
-theme: jekyll-theme-slate
+title: BitWiseBots 
+email: BitWiseBots@protonmail.com
+description: >- 
+  Project documentation and blog for all BitWiseBots projects
+github_username: BitWiseBots
+minimal_mistakes_skin: neon
+search: true
+logo: "/assets/images/logo.png"
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: America/Edmonton # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-relative-links
+
+author:
+  name   : "BitWiseBots"
+  avatar : "/assets/images/logo.png"
+  bio    : ".NET Engineer with a passion for improving developer efficiency and quality of life."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+
+collections:
+  fluent-builders:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  - scope:
+      path: ""
+      type: fluent-builders
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "fluent-builders"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

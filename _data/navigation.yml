@@ -1,0 +1,21 @@
+main:
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+
+blog:
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+
+fluent-builders:
+  - title: "Quick Start"
+    url: /projects/fluent-builders/quick-start
+  - title: "Builder Usage Guide"
+    url: /projects/fluent-builders/builder-guide
+  - title: "Config Usage Guide"
+    url: /projects/fluent-builders/config-guide
