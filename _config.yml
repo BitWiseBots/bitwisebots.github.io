@@ -77,7 +77,7 @@ defaults:
       path: ""
       type: fluent-builders
     values:
-      layout: single
+      layout: default
       read_time: false
       author_profile: false
       share: false
