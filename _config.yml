@@ -48,8 +48,7 @@ footer:
 
 collections:
   projects:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   fluent-builders:
     output: true
     permalink: /:collection/:path/
