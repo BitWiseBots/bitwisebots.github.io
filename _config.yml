@@ -91,3 +91,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+relative_links:
+  enabled:     true
+  collections: true
