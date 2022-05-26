@@ -1,5 +1,5 @@
 ---
-masthead_title: "Fluent Builders
+masthead_title: "Fluent Builders"
 title: "About Fluent Builders"
 permalink: /fluent-builders/about
 redirect_from:
