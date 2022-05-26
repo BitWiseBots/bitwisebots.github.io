@@ -82,6 +82,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "blog"
   # _pages
   - scope:
       path: "_pages"
