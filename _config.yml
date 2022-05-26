@@ -47,6 +47,9 @@ footer:
       url: "https://github.com/"
 
 collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
   fluent-builders:
     output: true
     permalink: /:collection/:path/

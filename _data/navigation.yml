@@ -14,8 +14,8 @@ blog:
 
 fluent-builders:
   - title: "Quick Start"
-    url: /projects/fluent-builders/quick-start
+    url: /fluent-builders/quick-start
   - title: "Builder Usage Guide"
-    url: /projects/fluent-builders/builder-guide
+    url: /fluent-builders/builder-guide
   - title: "Config Usage Guide"
-    url: /projects/fluent-builders/config-guide
+    url: /fluent-builders/config-guide
