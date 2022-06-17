@@ -15,7 +15,7 @@ permalink: /fluent-builders/quick-start
     ```
 * Building an instance:
     ```csharp
-    Builders.Create<User>()
+    BuilderFactory.Create<User>()
         .With(u => u.FirstName, "John")
         .With(u => u.LastName, "Doe")
         .Build();
@@ -40,7 +40,7 @@ permalink: /fluent-builders/quick-start
     ```
 * Building an instance:
     ```csharp
-    Builders.Create<User>(b => 
+    BuilderFactory.Create<User>(b => 
         new User(
             b.From(u => u.FirstName), 
             b.From(u => u.LastName), 
@@ -81,7 +81,7 @@ Three different types of configurations are available:
         [OneTimeSetUp]
         public void OneTimeSetUp()
         {
-            Builders.AddConfig<SampleBuilderConfig>();
+            BuilderFactory.AddConfig<SampleBuilderConfig>();
         }
     }
     ```
