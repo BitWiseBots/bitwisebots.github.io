@@ -50,9 +50,6 @@ author:
   avatar : "/assets/images/logo.png"
   bio    : ".NET Engineer with a passion for improving developer efficiency and quality of life."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BitWiseBots"
