@@ -29,11 +29,11 @@
    showgrid="false"
    inkscape:zoom="15"
    inkscape:cx="3"
-   inkscape:cy="25.566667"
+   inkscape:cy="25.633333"
    inkscape:window-width="1215"
    inkscape:window-height="864"
-   inkscape:window-x="2553"
-   inkscape:window-y="141"
+   inkscape:window-x="2322"
+   inkscape:window-y="155"
    inkscape:window-maximized="0"
    inkscape:current-layer="g65" />
 <g
@@ -67,7 +67,7 @@
    width="4.8270001"
    height="4.8270001"
    id="rect41"
-   style="stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+   style="stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
 		<rect
    x="6.2189999"
    y="8.4989996"
@@ -75,7 +75,7 @@
    width="3.4360001"
    height="3.4360001"
    id="rect43"
-   style="stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+   style="stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
 		<rect
    x="3.8050001"
    y="24.374001"
@@ -83,7 +83,7 @@
    width="4.8270001"
    height="4.8270001"
    id="rect45"
-   style="stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+   style="stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
 		<path
    fill="#d2e3f2"
    d="m 12.424,37.166 c 0,0.375 0.027,0.745 0.068,1.113 3.437,1.802 7.711,2.872 12.339,2.872 11.32,0 20.53,-6.398 20.53,-14.263 0,-0.375 -0.027,-0.745 -0.068,-1.113 -3.437,-1.802 -7.711,-2.872 -12.339,-2.872 -11.32,0 -20.53,6.398 -20.53,14.263 z"
@@ -101,7 +101,7 @@
    width="8.6040001"
    height="8.6040001"
    id="rect53"
-   style="stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+   style="stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
 			<rect
    x="11.385"
    y="5.8829999"
@@ -109,14 +109,14 @@
    width="4.8270001"
    height="4.8270001"
    id="rect55"
-   style="stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+   style="stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
 			<rect
    y="17.313999"
    fill="#3e9ae5"
    width="4.8270001"
    height="4.8270001"
    id="rect57"
-   style="stroke:#000000;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+   style="stroke:none;stroke-width:0.2;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
    x="0" />
 			<path
    fill="#3e9ae5"
