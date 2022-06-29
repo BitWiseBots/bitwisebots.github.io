@@ -1,0 +1,43 @@
+@import "theme-switcher";
+
+body, .page__footer {
+    @include theme('background-color', $general-background);
+    @include theme('color', $body-text-color)
+}
+
+.masthead, .greedy-nav, .page__footer{
+    @include theme('background-color', $accent-background);
+}
+
+button, .fa-link, .list__item a, .grid__item a, .page__title a, .navicon, .navicon:before, .navicon:after {
+    @include theme('color', $accent-color);
+}
+
+.navicon, .navicon:before, .navicon:after {
+    @include theme('background-color', $accent-color);
+}
+
+h1, h2, h3 {
+    @include theme('color', $faded-accent-color);
+}
+
+.masthead__menu-item a, .site-title {
+    @include theme('color', $nav-color)
+}
+
+.nav__sub-title, .page__meta {
+    @include theme('color', $faded-nav-color);
+}
+
+.visible-links a::before {
+    @include theme('background-color', $accent-color);
+}
+
+.pagination--pager {
+    @include theme('background-color', $accent-color);
+    line-height: 0.5;
+}
+
+article {
+    @include theme('color', $body-text-color);
+}

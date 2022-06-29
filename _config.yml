@@ -1,4 +1,4 @@
-title: BitWiseBots 
+title: Bit Wise Bots 
 email: BitWiseBots@protonmail.com
 description: >- 
   Project documentation and blog for all BitWiseBots projects
@@ -18,11 +18,17 @@ paginate: 5 # amount of posts to show
 paginate_path: /blog/page:num/
 timezone: America/Edmonton # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
 include:
   - _pages
 
 sass:
   style: compressed
+  sass_dir: assets/css
 
 compress_html:
   clippings: all

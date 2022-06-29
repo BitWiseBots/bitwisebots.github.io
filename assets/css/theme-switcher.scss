@@ -1,0 +1,53 @@
+$dark-theme: "dark-theme";
+$light-theme: "light-theme";
+
+$general-background: "general-background";
+$accent-background: "accent-background";
+$accent-color: "accent-color";
+$faded-accent-color: "faded-accent-color";
+$body-text-color: "body-text-color";
+$nav-color: "nav-color";
+$faded-nav-color: "faded-nav-color";
+
+$themes: (
+  $light-theme: (
+    $general-background: hsl(208, 46%, 89%),
+    $accent-background: 	hsl(208, 46%, 85%),
+    $accent-color:	hsl(14, 89%, 61%),
+    $faded-accent-color:	hsl(14, 71%, 61%),
+    $body-text-color: hsl(208, 26%, 22%),
+    $nav-color: hsl(207, 76%, 57%),
+    $faded-nav-color: hsl(207, 80%, 58%)
+  ),
+  $dark-theme: (
+    $general-background: hsl(208, 36%, 4%),
+    $accent-background: 	hsl(208, 46%, 3%),
+    $accent-color:	hsl(14, 89%, 61%),
+    $faded-accent-color:	hsl(14, 71%, 61%),
+    $body-text-color: hsl(208, 26%, 78%),
+    $nav-color: hsl(207, 76%, 57%),
+    $faded-nav-color: hsl(207, 76%, 72%)
+  )
+);
+
+@mixin themeProperty($theme, $property, $color) {
+    #{$property}: map-get($theme, $color) !important;  
+}
+
+@mixin theme($property, $color) {
+  $light: map-get($themes, $light-theme);
+  $dark: map-get($themes, $dark-theme);
+
+  @include themeProperty($light, $property, $color);
+
+  @media (prefers-color-scheme: dark) {
+    @include themeProperty($dark, $property, $color);
+  }
+}
+
+// Key colours from logo for reference
+// 0243A4 Dark blue 	hsl(216, 98%, 33%)
+// 1A73BB Light Blue  hsl(207, 76%, 42%)
+// 7A777A Grey        hsl(300, 1%, 47%)
+// D6E4F0 Off-white   hsl(208, 46%, 89%)
+// F46C41 Orange      hsl(14, 89%, 61%)
