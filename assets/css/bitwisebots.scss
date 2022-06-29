@@ -41,3 +41,7 @@ h1, h2, h3 {
 article {
     @include theme('color', $body-text-color);
 }
+
+.site-logo img{
+    max-height: 3rem !important;
+}

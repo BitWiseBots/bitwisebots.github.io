@@ -5,7 +5,7 @@ description: >-
 github_username: BitWiseBots
 minimal_mistakes_skin: neon
 search: true
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.svg"
 
 # Build settings
 markdown: kramdown
