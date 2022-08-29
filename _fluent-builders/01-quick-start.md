@@ -117,9 +117,9 @@ Three different types of configurations are available:
         }
     }
     ```
-*  With this configuration everytime you ask the `Builders` for a `User` it will automatically call the constructor and will use the values provided in matching `With` calls; if no value was provided it will use `default(T)` instead.
+*  With this configuration every time you ask the `Builders` for a `User` it will automatically call the constructor and will use the values provided in matching `With` calls; if no value was provided it will use `default(T)` instead.
 
-### Running Addtional Setup on Object Graphs
+### Running Additional Setup on Object Graphs
 * The example type to build:
     ```csharp
     public class User
@@ -148,7 +148,7 @@ Three different types of configurations are available:
         }
     }
     ```
-* This kind of configuration is great if your application uses an ORM and has both logic that only looks at a relationship's Id property or that is more involved and requires the full navigational property.
+* This kind of configuration is great if your application uses an ORM and has logic that only looks at a relationship's Id property or that is more involved and requires the full navigational property.
 
 ### Specifying Default Values for Specific Types
 * The example type to build:
