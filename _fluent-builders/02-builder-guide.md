@@ -2,6 +2,7 @@
 title: "Builder Usage Guide"
 permalink: /fluent-builders/builder-guide
 ---
+{% raw %}
 ## **General Builder Tips, Tricks and Tidbits**
 
 * Calling `Build()` is optional, the builder has a defined `implicit` conversion to the type its building. So as long as you store it to a variable of that type or pass it to a method expecting that type, then `Build()` will be called for you.
@@ -200,3 +201,4 @@ obj2 = {[{"someKey2": "stringValue"}]}
 ### **Generating an `IEnumerable` Property Value on Build**
 
 ### **Setting a Property using a Different Property**
+{% endraw %}
