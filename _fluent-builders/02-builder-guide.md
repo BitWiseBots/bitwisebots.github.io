@@ -113,7 +113,7 @@ If you need to create an object that has complex object properties where you onl
 ```
 
 ### **Setting an Indexed Property**
-If you're build a class that has a custom indexer, or maybe is just wrapping another type that has one and provides a passthrough then you can have the builder call the backing `set` for a specific index. The index can be provided either inline or as a variable; when using a variable, standard lambda closure issues can arise. This can also be used for implementations with multiple index parameters.
+If you're building a class that has a custom indexer, or maybe is just wrapping another type that has one and provides a passthrough then you can have the builder call the backing `set` for a specific index. The index can be provided either inline or as a variable; when using a variable, standard lambda closure issues can arise. This can also be used for implementations with multiple index parameters.
 
 _**Note:** These examples aren't legit json, they are more like pseudo code to give a rough idea of the object's structure_
 
@@ -193,7 +193,7 @@ obj1 = {[{"someKey1": "stringValue"}]}
 
 obj2 = {[{"someKey2": "stringValue"}]}
 ```
-*Note: This does produce the Resharper 'Captured variable is modified in the outer scope' warning. So long as you call build before changing the value, the warning can be safely ignored, otherwise both results would get the same key.
+**Note:** This does produce the Resharper 'Captured variable is modified in the outer scope' warning. So long as you call build before changing the value, the warning can be safely ignored, otherwise both results would get the same key.
 
 ## **Advanced With Statement Usages**
 ### **Generating a Property Value on Build**
