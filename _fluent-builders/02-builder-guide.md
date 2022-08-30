@@ -1,6 +1,9 @@
 ---
 title: "Builder Usage Guide"
 permalink: /fluent-builders/builder-guide
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "bars"
 ---
 {% raw %}
 ## **General Builder Tips, Tricks and Tidbits**
@@ -193,7 +196,7 @@ obj1 = {[{"someKey1": "stringValue"}]}
 
 obj2 = {[{"someKey2": "stringValue"}]}
 ```
-**Note:** This does produce the Resharper 'Captured variable is modified in the outer scope' warning. So long as you call build before changing the value, the warning can be safely ignored, otherwise both results would get the same key.
+**Note:** This does produce the Resharper `Captured variable is modified in the outer scope` warning. So long as you call build before changing the value, the warning can be safely ignored, otherwise both results would get the same key.
 
 ## **Advanced With Statement Usages**
 ### **Generating a Property Value on Build**
